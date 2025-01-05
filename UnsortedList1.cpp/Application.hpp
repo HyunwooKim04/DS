@@ -14,7 +14,7 @@
 class Application {
 public:
     void DisplayMenu();
-    void PlayMenu();
+    void Run();
 };
 
 #endif /* Application_hpp */

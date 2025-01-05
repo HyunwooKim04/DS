@@ -12,5 +12,5 @@
 
 int main(int argc, const char * argv[]) {
     Application app;
-    app.PlayMenu();
+    app.Run();
 }

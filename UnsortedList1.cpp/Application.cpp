@@ -22,7 +22,7 @@ void Application::DisplayMenu() {
     std::cout << "Choose command --> ";
 }
 
-void Application::PlayMenu() {
+void Application::Run() {
     ArrayList list;
     int command;
     ItemType item;
