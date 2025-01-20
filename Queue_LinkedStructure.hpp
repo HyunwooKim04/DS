@@ -80,4 +80,9 @@ void QueType<ItemType>::MakeEmpty() {
     }
     qRear = NULL;
 }
+
+template<class ItemType>
+QueType<ItemType>::~QueType() {
+    this->MakeEmpty();
+}
 #endif /* Queue_LinkedStructure_hpp */
